@@ -19,6 +19,7 @@ Durante el curso de OpenAI API utilizamos la versión `1.55.3` de la librería `
 | BatchAPI: Lotes de solicitudes                             | `Batch`                     | `/Batch`                     |
 | Assistants: Asistentes de OpenAI                           | `Assistants`                | `/Assistants`                |
 | Transcripción y síntesis de voz                            | `SpeechToText-TextToSpeech` | `/SpeechToText-TextToSpeech` |
+| Ejecución del Fine-Tuning y Monitoreo                      | `Fine-Tuning`               | `/Fine-Tuning`               |
 
 De esta forma, cada commit representa una clase del curso, si deseas navegar a una parte específica del curso, puedes hacerlo usando el comando `git checkout <commit>`.
 
@@ -41,6 +42,10 @@ OpenAI ahora nos permite integrar el procesamiento de imágenes directamente den
 ### DALL·E 3 API
 
 La **DALL·E 3 API** proporciona acceso al modelo generativo de imágenes más avanzado de OpenAI, que permite crear imágenes a partir de prompts. También podemos generar imágenes a través de la API de OpenAI.
+
+### Fine-Tuning
+
+El **Fine-Tuning** es una técnica de entrenamiento de modelos de lenguaje que nos permite mejorar el rendimiento de un modelo existente. En este caso, entrenamos un modelo para que pueda responder preguntas sobre cursos de Platzi.
 
 ### BatchAPI
 
